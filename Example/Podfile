@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'layer_Example' do
+  pod 'layer', :path => '../'
+
+  target 'layer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
