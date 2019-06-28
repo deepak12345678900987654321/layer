@@ -1,0 +1,6 @@
+framework module layer {
+  umbrella header "layer-umbrella.h"
+
+  export *
+  module * { export * }
+}

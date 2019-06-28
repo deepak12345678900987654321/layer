@@ -1,0 +1,22 @@
+{
+  "name": "layer",
+  "version": "0.1.0",
+  "summary": "A short description of layer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/deepak12345678900987654321/layer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "deepak12345678900987654321": "deepak.kumar@arthonsys.com"
+  },
+  "source": {
+    "git": "https://github.com/deepak12345678900987654321/layer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "layer/Classes/**/*"
+}

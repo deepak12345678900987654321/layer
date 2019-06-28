@@ -1,0 +1,16 @@
+PODS:
+  - layer (0.1.0)
+
+DEPENDENCIES:
+  - layer (from `../`)
+
+EXTERNAL SOURCES:
+  layer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  layer: 6d67202b211dde7321e0116dbecb6773ef42f8c8
+
+PODFILE CHECKSUM: fece3c7bade9088c4107f1e65ff492b40b9d22a5
+
+COCOAPODS: 1.7.2

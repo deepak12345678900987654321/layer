@@ -1,0 +1,6 @@
+framework module Pods_layer_Tests {
+  umbrella header "Pods-layer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

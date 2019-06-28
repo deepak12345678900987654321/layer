@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import layer
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewLayer: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+          viewLayer.gradientBackground(from: UIColor.red, to: UIColor.blue, direction: .topToBottom)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
