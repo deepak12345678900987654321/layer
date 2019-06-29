@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'layer/Classes/*.swift'
   
   s.resource_bundles = {
-   'layer' => ['layer/Assets/*demView.png']
+   'layer' => ['layer/Assets/*demView']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
