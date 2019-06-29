@@ -13,9 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
           self.view.gradientBackground(from: UIColor.red, to: UIColor.blue, direction: .topToBottom)
-        
     }
 }
 
