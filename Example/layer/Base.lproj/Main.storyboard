@@ -20,25 +20,8 @@
                     <view key="view" contentMode="scaleToFill" id="3OK-VQ-gjK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yd5-eT-aDp">
-                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="5Hn-Sa-sCa"/>
-                                    <constraint firstAttribute="width" constant="200" id="h8W-8A-KNb"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="yd5-eT-aDp" firstAttribute="centerX" secondItem="3OK-VQ-gjK" secondAttribute="centerX" id="Sth-wd-RTc"/>
-                            <constraint firstItem="yd5-eT-aDp" firstAttribute="centerY" secondItem="3OK-VQ-gjK" secondAttribute="centerY" id="dy7-yn-OxT"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="viewLayer" destination="yd5-eT-aDp" id="FSs-Dr-1io"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKX-A5-uCS" sceneMemberID="firstResponder"/>
             </objects>

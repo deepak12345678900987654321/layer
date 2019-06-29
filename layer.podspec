@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'layer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of layer.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.swift_version    = '4.0'
+  s.swift_version    = '4.2'
 
   s.homepage         = 'https://github.com/deepak12345678900987654321/layer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,16 +30,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/deepak12345678900987654321/layer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '11.4'
 
   s.source_files = 'layer/Classes/*.swift'
   
-  # s.resource_bundles = {
-  #   'layer' => ['layer/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'layer' => ['layer/Assets/*.demView']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation' ~ 'Enable only required Framework'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
 
